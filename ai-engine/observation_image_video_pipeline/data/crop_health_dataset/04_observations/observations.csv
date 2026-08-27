@@ -1,0 +1,2 @@
+observation_id,farm_id,zone_id,crop_id,variety_id,observation_type,captured_at,source
+OBS-EXAMPLE,F001,Z001,C001,V001,IMAGE,2026-08-27T10:00:00Z,FARMER

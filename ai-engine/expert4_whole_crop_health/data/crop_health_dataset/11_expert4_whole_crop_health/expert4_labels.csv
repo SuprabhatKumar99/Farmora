@@ -1,0 +1,2 @@
+observation_id,class_id,class_name,confidence,bbox_x1,bbox_y1,bbox_x2,bbox_y2
+OBS-EXAMPLE,0,example,0.0,,,,

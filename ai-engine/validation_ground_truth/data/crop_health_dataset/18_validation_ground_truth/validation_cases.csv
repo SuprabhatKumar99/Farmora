@@ -1,0 +1,2 @@
+case_id,predicted_label,ground_truth_label,status
+CASE-EXAMPLE,EXAMPLE_ONLY,EXAMPLE_ONLY,EXAMPLE_ONLY

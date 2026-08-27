@@ -1,0 +1,6 @@
+crop_id,stage_id,lifecycle_stage
+C001,GS01,Germination
+C001,GS02,Vegetative
+C001,GS03,Flowering
+C001,GS04,Fruiting
+C001,GS05,Maturity

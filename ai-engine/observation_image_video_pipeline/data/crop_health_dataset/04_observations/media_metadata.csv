@@ -1,0 +1,2 @@
+observation_id,filename,content_type,size_bytes,width,height,frame_count,fps,duration_seconds
+OBS-EXAMPLE,example.jpg,image/jpeg,0,0,0,,,

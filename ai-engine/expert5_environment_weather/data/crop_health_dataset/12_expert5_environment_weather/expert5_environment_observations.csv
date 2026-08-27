@@ -1,0 +1,2 @@
+observation_id,farm_id,zone_id,timestamp,latitude,longitude,temperature_c,relative_humidity_pct,rainfall_mm,wind_speed_mps,pressure_hpa,soil_moisture_pct
+OBS-EXAMPLE,F001,Z001,2026-01-01T00:00:00,0,0,0,0,0,0,0,0

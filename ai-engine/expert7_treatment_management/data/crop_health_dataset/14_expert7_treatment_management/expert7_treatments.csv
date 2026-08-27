@@ -1,0 +1,2 @@
+case_id,treatment_id,treatment_type,priority,evidence_id,validation_required
+CASE-EXAMPLE,T001,EXAMPLE_ONLY,0.0,EVIDENCE-EXAMPLE,true

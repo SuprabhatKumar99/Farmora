@@ -1,0 +1,2 @@
+pest_id,pest_name,crop_id,affected_parts,typical_stage
+P001,Example_Pest,C001,Leaf|Fruit,Fruiting

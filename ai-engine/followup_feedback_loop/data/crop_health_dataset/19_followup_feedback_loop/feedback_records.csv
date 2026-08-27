@@ -1,0 +1,2 @@
+feedback_id,case_id,feedback_type,verified,source_id
+FEEDBACK-EXAMPLE,CASE-EXAMPLE,FIELD_OBSERVATION,false,

@@ -1,0 +1,2 @@
+case_id,evidence_id,expert,evidence_type,finding,confidence,affected_zone
+CASE-EXAMPLE,E001,EXPERT_1_VISUAL_HEALTH,VISUAL_HEALTH,example,0.0,Z001

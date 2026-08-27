@@ -1,0 +1,2 @@
+case_id,action_id,action_type,priority,evidence_id
+CASE-EXAMPLE,A001,EXAMPLE_ONLY,0.0,EVIDENCE-EXAMPLE

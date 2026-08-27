@@ -1,0 +1,4 @@
+sensor_id,farm_id,zone_id,sensor_type,unit,latitude,longitude,active
+S001,F001,Z001,SOIL_MOISTURE,%,26.7271,88.3953,true
+S002,F001,Z001,TEMPERATURE,C,26.7271,88.3953,true
+S003,F001,Z001,HUMIDITY,%,26.7271,88.3953,true

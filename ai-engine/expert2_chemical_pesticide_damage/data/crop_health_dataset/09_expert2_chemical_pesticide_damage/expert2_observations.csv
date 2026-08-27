@@ -1,0 +1,2 @@
+observation_id,farm_id,zone_id,crop_id,variety_id,media_type
+OBS-EXAMPLE,F001,Z001,C001,V001,IMAGE

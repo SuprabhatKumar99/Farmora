@@ -1,0 +1,2 @@
+symptom_id,disease_id,crop_id,plant_part,symptom_type,color,pattern,severity_stage,description
+S001,D001,C001,Leaf,Lesion,Brown,Irregular,Early,Example symptom description

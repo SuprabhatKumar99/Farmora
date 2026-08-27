@@ -1,0 +1,3 @@
+cycle_id,farm_id,zone_id,crop_id,variety_id,sowing_date,expected_harvest_date,current_stage
+CC001,F001,Z001,C001,V001,2026-06-01,2026-09-01,Fruiting
+CC002,F001,Z002,C001,V001,2026-06-01,2026-09-01,Fruiting

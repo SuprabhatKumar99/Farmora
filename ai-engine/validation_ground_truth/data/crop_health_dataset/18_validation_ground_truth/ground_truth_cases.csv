@@ -1,0 +1,2 @@
+case_id,target_type,label,status,split,source_ids,reviewer_ids
+CASE-EXAMPLE,classification,EXAMPLE_ONLY,DRAFT,TEST,,

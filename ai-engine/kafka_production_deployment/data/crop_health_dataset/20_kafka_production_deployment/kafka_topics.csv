@@ -1,0 +1,6 @@
+topic,purpose
+ai.inference.request,Asynchronous AI inference requests
+ai.inference.completed,Successful AI inference results
+ai.inference.failed,Failed AI inference events
+ai.inference.dlq,Messages that cannot be processed successfully
+followup.feedback.received,Follow-up feedback events

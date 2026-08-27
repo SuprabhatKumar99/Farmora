@@ -1,0 +1,2 @@
+case_id,diagnosis,likely_cause,validation_required
+CASE-EXAMPLE,EXAMPLE_ONLY,true

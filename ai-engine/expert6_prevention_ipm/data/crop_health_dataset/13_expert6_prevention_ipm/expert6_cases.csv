@@ -1,0 +1,2 @@
+case_id,crop_id,variety_id,growth_stage,location,observed_problem
+CASE-EXAMPLE,C001,V001,UNKNOWN,UNKNOWN,EXAMPLE_ONLY

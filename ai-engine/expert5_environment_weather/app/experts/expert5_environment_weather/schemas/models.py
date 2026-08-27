@@ -1,0 +1,10 @@
+from enum import Enum
+from pydantic import BaseModel, Field
+class ModelTask(str, Enum):
+    CLASSIFICATION='CLASSIFICATION'; REGRESSION='REGRESSION'; FORECASTING='FORECASTING'
+class EnvironmentWeatherRequest(BaseModel):
+    observation_id:str; data_path:str; model_version:str='production'
+class EnvironmentWeatherResult(BaseModel):
+    expert:str='EXPERT_5_ENVIRONMENT_WEATHER'; observation_id:str; model_name:str; model_version:str; task:ModelTask
+    records_processed:int=Field(ge=0); predictions:list[dict]=Field(default_factory=list); processing_time_ms:float=Field(ge=0)
+    evidence_quality:str; status:str; error_code:str|None=None; error_message:str|None=None

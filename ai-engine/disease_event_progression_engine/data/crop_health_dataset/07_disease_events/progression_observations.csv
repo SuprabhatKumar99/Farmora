@@ -1,0 +1,2 @@
+observation_id,event_id,observed_at,severity,evidence_ids
+PROG-EXAMPLE,EVT-EXAMPLE,2026-08-27T09:00:00Z,0.25,EVD-EXAMPLE

@@ -1,0 +1,6 @@
+stage_id,crop_id,stage_name,start_day,end_day,expected_features
+GS01,C001,Germination,0,10,Seed emergence
+GS02,C001,Vegetative,11,40,Leaf and stem development
+GS03,C001,Flowering,41,55,Flower development
+GS04,C001,Fruiting,56,75,Fruit development
+GS05,C001,Maturity,76,90,Fruit maturation

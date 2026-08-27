@@ -1,0 +1,2 @@
+event_id,farm_id,zone_id,crop_id,variety_id,disease_id,pest_id,status,severity,first_observed_at,last_observed_at
+EVT-EXAMPLE,F001,Z001,C001,V001,D001,,OBSERVED,0.25,2026-08-27T09:00:00Z,2026-08-27T09:00:00Z

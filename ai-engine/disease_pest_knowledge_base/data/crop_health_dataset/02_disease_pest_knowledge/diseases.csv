@@ -1,0 +1,2 @@
+disease_id,disease_name,crop_id,pathogen_type,pathogen_name,affected_parts,typical_stage
+D001,Late_Blight,C001,Fungus,Example_Pathogen,Leaf|Stem|Fruit,Fruiting

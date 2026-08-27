@@ -1,0 +1,2 @@
+asset_id,farm_id,zone_id,source,product_type,acquisition_time,file_path
+RS-EXAMPLE,F001,Z001,SATELLITE,MULTISPECTRAL,2026-08-27T09:00:00Z,data/samples/remote_sensing/example.tif
