@@ -1,0 +1,42 @@
+project:
+  name: crop_health_intelligence
+  expert_id: E01
+  expert_type: Visual_Health
+  seed: 42
+
+dataset:
+  root: .
+  image_metadata: 04_observations/image_metadata.csv
+  annotations: 04_observations/annotations.csv
+  images_root: 04_observations/images
+  videos_root: 04_observations/videos
+  split_manifest: expert_1_visual_health/reports/split_manifest.csv
+
+split:
+  train: 0.70
+  val: 0.15
+  test: 0.15
+  group_keys: [farm_id, case_id, crop_cycle_id]
+
+classification:
+  image_size: 224
+  batch_size: 32
+  epochs: 20
+  learning_rate: 0.0001
+  pretrained: true
+
+detection:
+  image_size: 640
+  batch_size: 8
+  epochs: 30
+  confidence_threshold: 0.25
+
+severity:
+  labels: [Mild, Moderate, Severe]
+  image_size: 224
+  batch_size: 32
+  epochs: 20
+
+output:
+  model_dir: expert_1_visual_health/checkpoints
+  report_dir: expert_1_visual_health/reports

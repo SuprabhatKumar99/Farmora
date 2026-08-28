@@ -1,0 +1,16 @@
+{
+  "expert_id": "E01",
+  "expert_type": "Visual_Health",
+  "input": {"image_id": "IMG001", "crop_id": "C001", "growth_stage": "Fruiting"},
+  "visual_assessment": {
+    "health_status": "Unhealthy",
+    "disease": "D001",
+    "disease_name": "Late_Blight",
+    "confidence": 0.91,
+    "severity": "Moderate",
+    "severity_score": 0.68,
+    "affected_parts": ["Leaf"],
+    "lesions": [{"type": "Disease_Lesion", "confidence": 0.94, "bbox": [120,80,250,190]}]
+  },
+  "evidence": [{"feature": "Dark_leaf_lesion", "confidence": 0.94}]
+}

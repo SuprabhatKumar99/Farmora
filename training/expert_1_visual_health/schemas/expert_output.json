@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Expert 1 Visual Health Output",
+  "type": "object",
+  "required": ["expert_id", "expert_type", "input", "visual_assessment", "evidence"],
+  "properties": {
+    "expert_id": {"const": "E01"},
+    "expert_type": {"const": "Visual_Health"},
+    "input": {"type": "object"},
+    "visual_assessment": {"type": "object"},
+    "evidence": {"type": "array"}
+  }
+}
